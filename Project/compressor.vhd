@@ -16,9 +16,9 @@ end entity;
 -- Architecture
 architecture logic of compressor is 
 -- Signals
-signal cp0, cp1, cp2, cp3 : std_logic_vector(5 downto 0);
-signal cp4 : std_logic_vector(7 downto 0);
-
+signal cp0, cp1, cp2, cp3, cp6, cp10, cp11 : std_logic_vector(5 downto 0);
+signal cp4, cp5, cp8 : std_logic_vector(7 downto 0);
+signal cp7, cp9, cp12 : std_logic_vector(2 downto 0);
 
 --Components
 component FA22_3 IS
@@ -49,6 +49,7 @@ port (A: in std_logic;
 end component;
 
 begin
+
 ----------------------------------- 1° Nível -------------------------------------------------
 
 
@@ -69,19 +70,38 @@ Comp4: FA3333_44 port map(C(2), A(0), A(1), A(2), C(0), B(0), B(1), B(2), D(1), 
 								
 ----------------------------------- 2° Nível -------------------------------------------------
 
+Comp5: FA3333_44 port map(cp2(2), cp2(5), cp1(2), cp1(5), cp2(4), cp1(1), cp1(4), cp4(7), 
+									cp1(0), cp1(3), cp4(3), C(0),
+									cp5(0), cp5(1), cp5(2), cp5(3), cp5(4), cp5(5), cp5(6), cp5(7));
 
+Comp6: FA333_33 port map(A(0), cp2(0), cp2(1), C(0), D(0), cp2(3), C(1), C(1), cp2(0),
+									cp6(0), cp6(1), cp6(2), cp6(3), cp6(4), cp6(5));
 
+Comp7: FA22_3 port map(cp3(1), cp3(2), cp3(3), cp3(4),
+								cp7(0), cp7(1), cp7(2));
 
+Comp8: FA3333_44 port map(cp4(1), cp4(2), cp4(6), B(3), cp4(4), cp4(5), D(2), B(3),
+									C(1), D(1), B(0), B(0),
+									cp8(0), cp8(1), cp8(2), cp8(3), cp8(4),cp8(5), cp8(6), cp8(7));
+
+Comp9: FA22_3 port map(C(1), D(2), C(1), D(2), 
+							cp9(0), cp9(1), cp9(2));
 
 
 ----------------------------------- 3° Nível -------------------------------------------------
 
+Comp10: FA333_33 port map(cp5(1), cp5(2), cp5(3), cp5(4), cp5(5), cp5(6), cp8(1), cp8(2), cp8(3),
+									cp10(0), cp10(1), cp10(2), cp10(3), cp10(4), cp10(5));
 
+Comp11: FA333_33 port map(cp6(1), cp6(2), cp6(5), cp6(3), cp6(4), cp7(2), cp7(0), cp7(1), cp5(0),
+									cp11(0), cp11(1), cp11(2), cp11(3), cp11(4), cp11(5));
 
+Comp12: FA22_3 port map(cp8(5), cp8(6), B(0), B(0),
+								cp12(0), cp12(1), cp12(2));
 
 ----------------------------------- 4° Nível -------------------------------------------------
 
 
-
+----------------------------------- 5° Nível -------------------------------------------------
 
 end architecture;
