@@ -40,3 +40,13 @@ Project/incremental_db/README
 *.hb_info
 *.dfp
 Project/CSA_EAC.vhd
+*.ini
+Project/simulation/modelsim/msim_transcript
+*.do
+Project/simulation/modelsim/rtl_work/_info
+*.qdb
+*.qpg
+*.qtl
+Project/simulation/modelsim/rtl_work/_vmake
+*.wlf
+*.bak1

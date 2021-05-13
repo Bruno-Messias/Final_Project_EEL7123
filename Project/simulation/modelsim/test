@@ -1,0 +1,25 @@
+force -freeze sim:/compressor/A 0000 0
+force -freeze sim:/compressor/B 0000 0
+force -freeze sim:/compressor/C 0000 0
+force -freeze sim:/compressor/D 000 0
+run
+force -freeze sim:/compressor/A 0001 0
+force -freeze sim:/compressor/B 0000 0
+force -freeze sim:/compressor/C 0000 0
+force -freeze sim:/compressor/D 000 0
+run
+force -freeze sim:/compressor/A 0000 0
+force -freeze sim:/compressor/B 0001 0
+force -freeze sim:/compressor/C 0000 0
+force -freeze sim:/compressor/D 000 0
+run
+force -freeze sim:/compressor/A 0000 0
+force -freeze sim:/compressor/B 0000 0
+force -freeze sim:/compressor/C 0001 0
+force -freeze sim:/compressor/D 000 0
+run
+force -freeze sim:/compressor/A 0000 0
+force -freeze sim:/compressor/B 0000 0
+force -freeze sim:/compressor/C 0000 0
+force -freeze sim:/compressor/D 001 0
+run
