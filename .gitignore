@@ -56,3 +56,6 @@ Project/simulation/modelsim/rtl_work/_vmake
 *.qws
 *.qws
 *.qws
+*.ipinfo
+*.syn_hier_info
+*.ipinfo
