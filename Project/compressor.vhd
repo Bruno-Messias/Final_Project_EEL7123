@@ -94,7 +94,7 @@ Comp6: FA333_33 port map(A(0), cp2(0), cp2(1), C(0), D(0), cp2(3), C(1), C(1), c
 Comp7: FA22_3 port map(cp3(1), cp3(2), cp3(3), cp3(4),
 								cp7(0), cp7(1), cp7(2));
 
-Comp8: FA3333_44 port map(cp4(1), cp4(2), cp4(6), B(3), cp4(4), cp4(5), D(2), B(3),
+Comp8: FA3333_44 port map(cp4(1), cp4(2), cp4(6), B(3), cp4(4), cp4(5), D(2), B(0),
 									not_D0, D(1), B(0), B(0),
 									cp8(0), cp8(1), cp8(2), cp8(3), cp8(4),cp8(5), cp8(6), cp8(7));
 
