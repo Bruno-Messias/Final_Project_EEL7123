@@ -8,7 +8,7 @@ entity compressor is port
 	B : in  std_logic_vector(3 downto 0);
 	C : in  std_logic_vector(3 downto 0);
 	D : in  std_logic_vector(2 downto 0);
-	S : out std_logic_vector(17 downto 0)
+	S : out std_logic_vector(18 downto 0)
 );
 end entity;
 
@@ -20,6 +20,8 @@ signal cp0, cp1, cp2, cp3, cp6, cp10, cp11 : std_logic_vector(5 downto 0);
 signal cp4, cp5, cp8, cp14 : std_logic_vector(7 downto 0);
 signal cp7, cp9, cp12 : std_logic_vector(2 downto 0);
 signal cp13, cp15 : std_logic_vector(1 downto 0);
+
+signal A_sum, B_sum : std_logic_vector(17 downto 0);
 
 --Components
 component FA22_3 IS
@@ -47,6 +49,14 @@ port (A: in std_logic;
 		Cin: in std_logic;
 		S: out std_logic;
 		Cout: out std_logic);
+end component;
+
+component adder is
+generic (n : natural);
+port (A: in std_logic_vector((n-1) downto 0);
+		B: in std_logic_vector((n-1) downto 0);
+		Cin: in std_logic;
+		S: out std_logic_vector(n downto 0));
 end component;
 
 begin
@@ -116,6 +126,14 @@ Comp15: FA port map(cp14(7), cp8(7), cp13(0),
 							cp15(0), cp15(1)); 
 
 ----------------------------------- SUM CSA ---------------------------------------------------------
+
+A_sum <= cp0(5) & cp0(2 downto 0) & cp13(1) & cp15(0) & cp14(3 downto 0) & cp11(1 downto 0) & cp6(0) & '0' & cp7(2 downto 0) & cp3(0);
+
+B_sum <= '0' & cp0(4 downto 3) & '0' & cp15(1) & '0' & cp14(6 downto 4) & '0' & cp11(3) & '0' & C(1) & '0' & cp3(5) & '0' & A(3) & '0';
+
+SUM: adder
+generic map(n => 18)
+port map(A_sum, B_sum, '0', S);
 
 
 
