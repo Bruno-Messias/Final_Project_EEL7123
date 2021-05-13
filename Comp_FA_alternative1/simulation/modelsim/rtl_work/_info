@@ -1,0 +1,250 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\fehug\Documents\GitHub\Final_Project_EEL7123\Comp_FA_alternative1\simulation\modelsim
+Eadder
+Z1 w1620947718
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\fehug\Documents\GitHub\Final_Project_EEL7123\Comp_FA_alternative1\simulation\modelsim
+Z5 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/adder.vhd
+Z6 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/adder.vhd
+l0
+L4
+V6R[8lzTISKYX9naSMGJ5=3
+!s100 681dzoMFD=GeCQ>P[JiEG1
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1620948548.513000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/adder.vhd|
+Z10 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/adder.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Acircuito_logico
+R2
+R3
+DEx4 work 5 adder 0 22 6R[8lzTISKYX9naSMGJ5=3
+l24
+L12
+VJ:5mbM]d:on6<Q4SPj0dO0
+!s100 LzRBzc@7iGj97P`f`2m>f2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Ecomp_fa_alternative1
+Z13 w1620947990
+R2
+R3
+R4
+Z14 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/Comp_FA_alternative1.vhd
+Z15 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/Comp_FA_alternative1.vhd
+l0
+L5
+V7oU2kWAMIDL91ma6>1bK40
+R7
+31
+Z16 !s108 1620948546.998000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/Comp_FA_alternative1.vhd|
+Z18 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/Comp_FA_alternative1.vhd|
+R11
+R12
+!s100 S_6@m^WD^<]d:BLkNd4kL3
+!i10b 1
+Alogic
+R2
+R3
+DEx4 work 20 comp_fa_alternative1 0 22 7oU2kWAMIDL91ma6>1bK40
+l54
+L17
+V^I5CbjVJ_9M;di93l<2<31
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 Q^De026NPH5[b8KAOAbc@1
+!i10b 1
+Efa22_3
+Z19 w1620947739
+R2
+R3
+R4
+Z20 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA22_3.vhd
+Z21 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA22_3.vhd
+l0
+L5
+Vo?DSkihdW@bSdG1<L8g=41
+R7
+31
+Z22 !s108 1620948547.444000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA22_3.vhd|
+Z24 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA22_3.vhd|
+R11
+R12
+!s100 11Oi6`eim;eMM8:AL5SV80
+!i10b 1
+Asoma22_3
+R2
+R3
+DEx4 work 6 fa22_3 0 22 o?DSkihdW@bSdG1<L8g=41
+l32
+L12
+V4;Cg2I<lbQnzF>X1imnV21
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 BcHjeec]g=zLZ2dl`kjMG2
+!i10b 1
+Efa3333_44
+R19
+R2
+R3
+R4
+Z25 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA3333_44.vhd
+Z26 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA3333_44.vhd
+l0
+L4
+VlLcG>YY<j>Q_8DW0FhFW`0
+R7
+31
+Z27 !s108 1620948547.928000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA3333_44.vhd|
+Z29 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA3333_44.vhd|
+R11
+R12
+!s100 [J[cLDY78Qg8R7Zkd]]4i0
+!i10b 1
+Asoma3333_44
+R2
+R3
+DEx4 work 9 fa3333_44 0 22 lLcG>YY<j>Q_8DW0FhFW`0
+l23
+L11
+V@WUnZi=9T;k@UlP7_d21_2
+R7
+31
+R27
+R28
+R29
+R11
+R12
+!s100 G8<>eg6j_88V<P_Ei8GXN0
+!i10b 1
+Efa333_33
+R19
+R2
+R3
+R4
+Z30 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA333_33.vhd
+Z31 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA333_33.vhd
+l0
+L4
+VF[O<;TT@U7a3Yzo0UhoSB1
+R7
+31
+Z32 !s108 1620948547.683000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA333_33.vhd|
+Z34 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA333_33.vhd|
+R11
+R12
+!s100 :>o@^hAlPzGGHhL@5E;U_3
+!i10b 1
+Asoma333_33
+R2
+R3
+DEx4 work 8 fa333_33 0 22 F[O<;TT@U7a3Yzo0UhoSB1
+l23
+L11
+Vfi]1DZ[7PN]4`YPLe6PPZ0
+R7
+31
+R32
+R33
+R34
+R11
+R12
+!s100 :Q4e@PGjT]KQNEmU]SFoE3
+!i10b 1
+Efa_alternative
+Z35 w1620947303
+R2
+R3
+R4
+Z36 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA_Alternative.vhd
+Z37 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA_Alternative.vhd
+l0
+L4
+VdLECA8_8I?7JDLXJdie[Y1
+R7
+31
+Z38 !s108 1620948546.617000
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA_Alternative.vhd|
+Z40 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/FA_Alternative.vhd|
+R11
+R12
+!s100 J3=5ZS:<WoGnJik<H2ez71
+!i10b 1
+Astructure
+R2
+R3
+DEx4 work 14 fa_alternative 0 22 dLECA8_8I?7JDLXJdie[Y1
+l13
+L11
+Vi@0gGl6Kl<1S6E`3WUKX:3
+R7
+31
+R38
+R39
+R40
+R11
+R12
+!s100 l4C9E1MCRP5DglSKAPPFW0
+!i10b 1
+Eha
+Z41 w1620947644
+R2
+R3
+R4
+Z42 8C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/HA.vhd
+Z43 FC:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/HA.vhd
+l0
+L7
+Vj9MaRGB92[[KZg<;FA:lG0
+R7
+31
+Z44 !s108 1620948548.187000
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/HA.vhd|
+Z46 !s107 C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative1/HA.vhd|
+R11
+R12
+!s100 C8YmK[PZ:DmF<J=:SfJR23
+!i10b 1
+Ahalf
+R2
+R3
+DEx4 work 2 ha 0 22 j9MaRGB92[[KZg<;FA:lG0
+l16
+L15
+VVJQaLEH@Xm0hfMVVb>?CZ3
+R7
+31
+R44
+R45
+R46
+R11
+R12
+!s100 DPX6DaYb^cD:5R44K7Th00
+!i10b 1
