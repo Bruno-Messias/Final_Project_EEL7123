@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\fehug\Documents\GitHub_local\EEL7123\FA_Alternative\simulation\modelsim
+Efa_alternative2
+Z1 w1620869942
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\fehug\Documents\GitHub_local\EEL7123\FA_Alternative\simulation\modelsim
+Z5 8C:/Users/fehug/Documents/GitHub_local/EEL7123/FA_Alternative/FA_Alternative2.vhd
+Z6 FC:/Users/fehug/Documents/GitHub_local/EEL7123/FA_Alternative/FA_Alternative2.vhd
+l0
+L4
+VF72?6c@Q:3]iJOaB`b5?P1
+!s100 Zzf[Zf[HQa7CnN92W7h_K2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1620870180.223000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/fehug/Documents/GitHub_local/EEL7123/FA_Alternative/FA_Alternative2.vhd|
+Z10 !s107 C:/Users/fehug/Documents/GitHub_local/EEL7123/FA_Alternative/FA_Alternative2.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Astructure
+R2
+R3
+DEx4 work 15 fa_alternative2 0 22 F72?6c@Q:3]iJOaB`b5?P1
+l13
+L11
+Vd=e]6l6lbV=Aa:S]5fzoe2
+!s100 6nJ4Unh4Uh@n<LN9OFe733
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
