@@ -1,0 +1,139 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Comp_FA_alternative2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Comp_FA_alternative2
+# -- Compiling architecture logic of Comp_FA_alternative2
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA333_33
+# -- Compiling architecture SOMA333_33 of FA333_33
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA3333_44
+# -- Compiling architecture SOMA3333_44 of FA3333_44
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA22_3
+# -- Compiling architecture SOMA22_3 of FA22_3
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture half of HA
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA_Alternative2
+# -- Compiling architecture structure of FA_Alternative2
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder
+# -- Compiling architecture circuito_logico of adder
+# 
+vsim +altera -do Comp_FA_alternative2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.comp_fa_alternative2
+# vsim +altera -do Comp_FA_alternative2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.comp_fa_alternative2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.comp_fa_alternative2(logic)
+# Loading work.fa333_33(soma333_33)
+# Loading work.fa_alternative2(structure)
+# Loading work.fa3333_44(soma3333_44)
+# Loading work.fa22_3(soma22_3)
+# Loading work.ha(half)
+# Loading work.adder(circuito_logico)
+# do Comp_FA_alternative2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Comp_FA_alternative2
+# -- Compiling architecture logic of Comp_FA_alternative2
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA333_33
+# -- Compiling architecture SOMA333_33 of FA333_33
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA3333_44
+# -- Compiling architecture SOMA3333_44 of FA3333_44
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA22_3
+# -- Compiling architecture SOMA22_3 of FA22_3
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HA
+# -- Compiling architecture half of HA
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA_Alternative2
+# -- Compiling architecture structure of FA_Alternative2
+# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder
+# -- Compiling architecture circuito_logico of adder
+# 
+add wave -position insertpoint  \
+sim:/comp_fa_alternative2/A \
+sim:/comp_fa_alternative2/B \
+sim:/comp_fa_alternative2/C \
+sim:/comp_fa_alternative2/D \
+sim:/comp_fa_alternative2/S
+do test

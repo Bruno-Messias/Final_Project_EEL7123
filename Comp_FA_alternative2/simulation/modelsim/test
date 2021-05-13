@@ -1,0 +1,40 @@
+force -freeze sim:/Comp_FA_alternative2/A 0000 0
+force -freeze sim:/Comp_FA_alternative2/B 0000 0
+force -freeze sim:/Comp_FA_alternative2/C 0000 0
+force -freeze sim:/Comp_FA_alternative2/D 000 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0001 0
+force -freeze sim:/Comp_FA_alternative2/B 0000 0
+force -freeze sim:/Comp_FA_alternative2/C 0000 0
+force -freeze sim:/Comp_FA_alternative2/D 000 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0000 0
+force -freeze sim:/Comp_FA_alternative2/B 0001 0
+force -freeze sim:/Comp_FA_alternative2/C 0000 0
+force -freeze sim:/Comp_FA_alternative2/D 000 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0000 0
+force -freeze sim:/Comp_FA_alternative2/B 0000 0
+force -freeze sim:/Comp_FA_alternative2/C 0001 0
+force -freeze sim:/Comp_FA_alternative2/D 000 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0000 0
+force -freeze sim:/Comp_FA_alternative2/B 0000 0
+force -freeze sim:/Comp_FA_alternative2/C 0000 0
+force -freeze sim:/Comp_FA_alternative2/D 001 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0010 0
+force -freeze sim:/Comp_FA_alternative2/B 0010 0
+force -freeze sim:/Comp_FA_alternative2/C 0010 0
+force -freeze sim:/Comp_FA_alternative2/D 010 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0100 0
+force -freeze sim:/Comp_FA_alternative2/B 0100 0
+force -freeze sim:/Comp_FA_alternative2/C 0100 0
+force -freeze sim:/Comp_FA_alternative2/D 100 0
+run
+force -freeze sim:/Comp_FA_alternative2/A 0101 0
+force -freeze sim:/Comp_FA_alternative2/B 0101 0
+force -freeze sim:/Comp_FA_alternative2/C 0101 0
+force -freeze sim:/Comp_FA_alternative2/D 101 0
+run
