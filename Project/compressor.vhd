@@ -20,6 +20,7 @@ signal cp0, cp1, cp2, cp3, cp6, cp10, cp11 : std_logic_vector(5 downto 0);
 signal cp4, cp5, cp8, cp14 : std_logic_vector(7 downto 0);
 signal cp7, cp9, cp12 : std_logic_vector(2 downto 0);
 signal cp13, cp15 : std_logic_vector(1 downto 0);
+signal not_D0 : std_logic;
 
 signal A_sum, B_sum : std_logic_vector(17 downto 0);
 
@@ -61,6 +62,8 @@ end component;
 
 begin
 
+not_D0 <= not(D(0));
+
 ----------------------------------- 1° Nível ----------------------------------------------------
 
 
@@ -92,7 +95,7 @@ Comp7: FA22_3 port map(cp3(1), cp3(2), cp3(3), cp3(4),
 								cp7(0), cp7(1), cp7(2));
 
 Comp8: FA3333_44 port map(cp4(1), cp4(2), cp4(6), B(3), cp4(4), cp4(5), D(2), B(3),
-									C(1), D(1), B(0), B(0),
+									not_D0, D(1), B(0), B(0),
 									cp8(0), cp8(1), cp8(2), cp8(3), cp8(4),cp8(5), cp8(6), cp8(7));
 
 Comp9: FA22_3 port map(C(1), D(2), C(1), D(2), 
