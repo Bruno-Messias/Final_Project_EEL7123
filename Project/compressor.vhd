@@ -17,8 +17,9 @@ end entity;
 architecture logic of compressor is 
 -- Signals
 signal cp0, cp1, cp2, cp3, cp6, cp10, cp11 : std_logic_vector(5 downto 0);
-signal cp4, cp5, cp8 : std_logic_vector(7 downto 0);
+signal cp4, cp5, cp8, cp14 : std_logic_vector(7 downto 0);
 signal cp7, cp9, cp12 : std_logic_vector(2 downto 0);
+signal cp13 : std_logic_vector(1 downto 0);
 
 --Components
 component FA22_3 IS
@@ -101,7 +102,15 @@ Comp12: FA22_3 port map(cp8(5), cp8(6), B(0), B(0),
 
 ----------------------------------- 4° Nível -------------------------------------------------
 
+Comp13: FA port map(cp10(5), cp12(2), cp5(7),
+							cp13(0), cp13(1));
+
+Comp14: FA3333_44 port map(cp11(2), cp11(5), cp10(1), cp10(2), cp11(4), cp10(0), cp10(3), cp10(4),
+									cp8(0), cp8(4), cp12(0), cp12(1), 
+									cp14(0), cp14(1), cp14(2), cp14(3), cp14(4), cp14(5), cp14(6), cp14(7));
 
 ----------------------------------- 5° Nível -------------------------------------------------
+
+
 
 end architecture;
