@@ -50,3 +50,5 @@ Project/simulation/modelsim/rtl_work/_info
 Project/simulation/modelsim/rtl_work/_vmake
 *.wlf
 *.bak1
+*.bak2
+*.qws
