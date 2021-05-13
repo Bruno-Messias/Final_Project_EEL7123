@@ -23,3 +23,18 @@ force -freeze sim:/compressor/B 0000 0
 force -freeze sim:/compressor/C 0000 0
 force -freeze sim:/compressor/D 001 0
 run
+force -freeze sim:/compressor/A 0010 0
+force -freeze sim:/compressor/B 0010 0
+force -freeze sim:/compressor/C 0010 0
+force -freeze sim:/compressor/D 010 0
+run
+force -freeze sim:/compressor/A 0100 0
+force -freeze sim:/compressor/B 0100 0
+force -freeze sim:/compressor/C 0100 0
+force -freeze sim:/compressor/D 100 0
+run
+force -freeze sim:/compressor/A 0101 0
+force -freeze sim:/compressor/B 0101 0
+force -freeze sim:/compressor/C 0101 0
+force -freeze sim:/compressor/D 101 0
+run
