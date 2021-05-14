@@ -1,67 +1,107 @@
-# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do Comp_FA_alternative2_run_msim_rtl_vhdl.do 
+# Reading pref.tcl
+# do Comp_FA_alternative2_run_msim_rtl_vhdl.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
-#          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:50 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Comp_FA_alternative2
 # -- Compiling architecture logic of Comp_FA_alternative2
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:51 on May 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:51 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FA333_33
 # -- Compiling architecture SOMA333_33 of FA333_33
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:51 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:51 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FA3333_44
 # -- Compiling architecture SOMA3333_44 of FA3333_44
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:51 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:51 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FA22_3
 # -- Compiling architecture SOMA22_3 of FA22_3
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:51 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:51 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity HA
 # -- Compiling architecture half of HA
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:51 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:52 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FA_Alternative2
 # -- Compiling architecture structure of FA_Alternative2
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/adder.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 21:02:52 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Mux2_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:52 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Mux2_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity adder
-# -- Compiling architecture circuito_logico of adder
+# -- Compiling entity Mux2_1
+# -- Compiling architecture Mux of Mux2_1
+# End time: 21:02:52 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/CSA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:02:52 on May 13,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/bruno/OneDrive - UFSC/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/CSA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CSA
+# -- Compiling architecture structure of CSA
+# End time: 21:02:52 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # 
-vsim +altera -do Comp_FA_alternative2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.comp_fa_alternative2
-# vsim +altera -do Comp_FA_alternative2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.comp_fa_alternative2 
+vsim work.comp_fa_alternative2(logic)
+# vsim work.comp_fa_alternative2(logic) 
+# Start time: 21:03:02 on May 13,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -71,65 +111,8 @@ vsim +altera -do Comp_FA_alternative2_run_msim_rtl_vhdl.do -l msim_transcript -g
 # Loading work.fa3333_44(soma3333_44)
 # Loading work.fa22_3(soma22_3)
 # Loading work.ha(half)
-# Loading work.adder(circuito_logico)
-# do Comp_FA_alternative2_run_msim_rtl_vhdl.do 
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# vlib rtl_work
-# vmap work rtl_work
-# Modifying modelsim.ini
-# 
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/Comp_FA_alternative2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity Comp_FA_alternative2
-# -- Compiling architecture logic of Comp_FA_alternative2
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA333_33.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FA333_33
-# -- Compiling architecture SOMA333_33 of FA333_33
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA3333_44.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FA3333_44
-# -- Compiling architecture SOMA3333_44 of FA3333_44
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA22_3.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FA22_3
-# -- Compiling architecture SOMA22_3 of FA22_3
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/HA.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity HA
-# -- Compiling architecture half of HA
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/FA_Alternative2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FA_Alternative2
-# -- Compiling architecture structure of FA_Alternative2
-# vcom -93 -work work {C:/Users/fehug/Documents/GitHub/Final_Project_EEL7123/Comp_FA_alternative2/adder.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity adder
-# -- Compiling architecture circuito_logico of adder
-# 
+# Loading work.csa(structure)
+# Loading work.mux2_1(mux)
 add wave -position insertpoint  \
 sim:/comp_fa_alternative2/A \
 sim:/comp_fa_alternative2/B \
@@ -137,3 +120,5 @@ sim:/comp_fa_alternative2/C \
 sim:/comp_fa_alternative2/D \
 sim:/comp_fa_alternative2/S
 do test
+# End time: 21:03:32 on May 13,2021, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0

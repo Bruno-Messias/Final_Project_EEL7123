@@ -8,7 +8,7 @@ entity Comp_FA_alternative2 is port
 	B : in  std_logic_vector(3 downto 0);
 	C : in  std_logic_vector(3 downto 0);
 	D : in  std_logic_vector(2 downto 0);
-	S : out std_logic_vector(18 downto 0)
+	S : out std_logic_vector(17 downto 0)
 );
 end entity;
 
@@ -19,7 +19,7 @@ architecture logic of Comp_FA_alternative2 is
 signal cp0, cp1, cp2, cp3, cp6, cp9, cp11, cp12, cp13 : std_logic_vector(5 downto 0);
 signal cp4, cp5, cp8, cp10, cp14 : std_logic_vector(7 downto 0);
 signal cp7 : std_logic_vector(2 downto 0);
-signal not_D0 : std_logic;
+signal not_D0, cout : std_logic;
 
 signal A_sum, B_sum : std_logic_vector(17 downto 0);
 
@@ -43,12 +43,13 @@ PORT(
 	  );
 end component;
 
-component adder is
-generic (n : natural);
-port (A: in std_logic_vector((n-1) downto 0);
-		B: in std_logic_vector((n-1) downto 0);
-		Cin: in std_logic;
-		S: out std_logic_vector(n downto 0));
+component CSA is 
+generic(n : natural := 18);
+port(
+	a,b: in std_logic_vector((n-1) downto 0);
+	sel: in std_logic;
+	s: out std_logic_vector((n-1) downto 0);
+	cout: out std_logic);
 end component;
 
 begin
@@ -115,9 +116,7 @@ Comp13: FA333_33 port map(cp11(1), cp11(2), cp11(5), cp11(3), cp11(4), cp10(0), 
 A_sum <= cp0(5) & cp0(2) & cp0(1 downto 0) & cp10(7) & cp12(2 downto 1) & cp13(5) & cp13(2 downto 0) & cp11(0) & cp6(0) & '0' & cp7(2 downto 0) & cp3(0);
 B_sum <=  '0' & cp0(4 downto 3) & '0' & cp12(5 downto 3) & cp12(0) & cp13(4 downto 3) & '0' & cp9(3) & cp9(0) & '0' &  cp3(5) & '0' & A(3) & '0';
 
-SUM: adder
-generic map(n => 18)
-port map(A_sum, B_sum, '0', S);
+SUM: CSA port map(A_sum, B_sum, '0', S, cout);
 
 
 
